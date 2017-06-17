@@ -1,0 +1,28 @@
+'''
+Created on Feb 27, 2015
+
+@author: daoxle
+'''
+import sqlite3 as db
+from _sqlite3 import Row
+filename = "mydatabase.db"
+conn = db.connect(filename);
+
+conn = db.connect("/Users/daoxle/Desktop/company.db" );
+c = conn.cursor();
+
+
+def join (table1, table2):
+    for Row in c.execute("SELECT * From "+table1+" "+ "Natural Join "+table2+ " where 0=0" ):
+        print Row
+        
+join ("department", "employee")
+
+
+
+
+
+
+
+
+        

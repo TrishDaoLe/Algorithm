@@ -1,0 +1,15 @@
+'''
+Created on Feb 27, 2015
+
+@author: daoxle
+'''
+import sqlite3 as db
+filename = "mydatabase.db"
+
+db.connect( "/Users/daoxle/Desktop/company.db" );
+print "hi";
+
+def meth (self):
+    print "this is a method of class"
+    
+meth();

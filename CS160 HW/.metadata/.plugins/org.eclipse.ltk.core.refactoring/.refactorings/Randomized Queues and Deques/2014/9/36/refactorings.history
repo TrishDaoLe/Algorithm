@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;inputString&apos; in &apos;Palindrome.main(...)&apos; to &apos;inputChar&apos;&#x0A;- Original project: &apos;Randomized Queues and Deques&apos;&#x0A;- Original element: &apos;Palindrome.main(String[]).inputString&apos;&#x0A;- Renamed element: &apos;inputString&apos;&#x0A;- Update references to refactored element" description="Rename local variable &apos;inputString&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;{Palindrome.java[Palindrome~main~\[QString;@inputString!91!107!96!106!C!0!false" name="inputChar" references="true" stamp="1409877130763" version="1.0"/>
+</session>

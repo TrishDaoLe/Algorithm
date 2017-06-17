@@ -1,0 +1,17 @@
+'''
+Created on Feb 27, 2015
+
+@author: daoxle
+'''
+import sqlite3 as db
+filename = "mydatabase.db"
+conn = db.connect(filename);
+
+db.connect("/Users/daoxle/Desktop/company.db" );
+c = conn.cursor();
+sql = "SELECT * FROM department"
+c.execute(sql);
+results = c.fetchall();
+print results 
+
+

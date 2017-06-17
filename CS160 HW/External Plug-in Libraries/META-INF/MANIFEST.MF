@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: External_Plug-in_Libraries
+Bundle-SymbolicName: External_Plug-in_Libraries
+Bundle-Version: 1.0.0.qualifier
+Bundle-ClassPath: daoxle/Downloads/stdlib.jar

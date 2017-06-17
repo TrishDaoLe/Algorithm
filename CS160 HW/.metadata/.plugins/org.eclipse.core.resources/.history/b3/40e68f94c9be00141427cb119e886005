@@ -1,0 +1,40 @@
+'''
+Created on Feb 27, 2015
+
+@author: daoxle
+'''
+import sqlite3 as db
+from _sqlite3 import Row
+filename = "mydatabase.db"
+conn = db.connect(filename);
+
+conn = db.connect("/Users/daoxle/Desktop/company.db" );
+c = conn.cursor();
+
+sql = "SELECT Fname, Minit, Lname, Sex From employee, department Where Mgr_ssn=Super_ssn"
+c.execute(sql);
+data = c.fetchall();
+
+print "These are the people that is being supervised by the manager"
+for Row in data: 
+    print Row
+
+print
+print "Firing all the Females in the company"
+sql1 = "DELETE FROM employee WHERE Sex='F'"    
+c.execute(sql1);
+print "%d rows that were affected" % c.rowcount 
+
+
+    
+
+
+
+
+
+
+
+
+
+
+        

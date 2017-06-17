@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename field &apos;N&apos; in &apos;BST.Node&apos; to &apos;numNode&apos;&#x0A;- Original project: &apos;8Puzzle&apos;&#x0A;- Original element: &apos;BST.Node.N&apos;&#x0A;- Renamed element: &apos;BST.Node.numNode&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" delegate="false" deprecate="false" description="Rename field &apos;N&apos;" flags="589826" getter="false" id="org.eclipse.jdt.ui.rename.field" input="/src&lt;{BST.java[BST[Node^N" name="numNode" references="true" setter="false" stamp="1413335684375" textual="false" version="1.0"/>
+</session>
